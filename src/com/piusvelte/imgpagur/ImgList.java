@@ -72,7 +72,7 @@ public class ImgList extends SherlockListFragment implements LoaderManager.Loade
 			textView.setText(imgListItem.getTitle());
 			textView = (TextView) row.findViewById(R.id.content);
 			textView.setText(imgListItem.getContent());
-			Picasso.with(getContext()).load(imgListItem.getThumbnail()).into(image);
+			Picasso.with(getContext()).load(imgListItem.getThumbnail()).resizeDimen(R.dimen.list_image, R.dimen.list_image).into(image);
 			return row;
 		}
 
