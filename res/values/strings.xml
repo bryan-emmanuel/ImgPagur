@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImgPagur</string>
+    <string name="menu_remove">Remove feed</string>
+    <string name="loading_images">Loading images</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_link">Link</string>
+    <string name="button_submit">Submit</string>
+    <string name="tab_new">Add feed</string>
+    <string name="no_images">The images found</string>
+
+</resources>
